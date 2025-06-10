@@ -1,0 +1,22 @@
+{
+  "__comment": "If no paths are specified, pyright defaults to the directory that contains the config file. 
+                Paths may contain wildcard characters 
+                ** (a directory or multiple levels of directories),
+                * (a sequence of zero or more characters),
+                ? (a single character).",
+  "include": [
+    "src",
+  ],
+  "__comment": "Paths of directories or files that should not be considered part of the project.
+                If not specified, Pyright automatically excludes the following.",
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+  ],
+  "__comment": "Additional search paths that will be used when searching for modules imported by files.",
+  "extraPaths": [
+    "/home/lloydgyt/dlsys/hw0-main/src"
+  ],
+  "reportUnusedVariable": "warning",
+}
